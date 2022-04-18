@@ -1,0 +1,21 @@
+  <cpu-usage xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-process-cpu-oper">
+    <cpu-utilization>
+      <five-seconds/>
+      <five-seconds-intr/>
+      <one-minute/>
+      <five-minutes/>
+      <cpu-usage-processes>
+        <cpu-usage-process>
+          <pid/>
+          <name/>
+          <tty/>
+          <total-run-time/>
+          <invocation-count/>
+          <avg-run-time/>
+          <five-seconds/>
+          <one-minute/>
+          <five-minutes/>
+        </cpu-usage-process>
+      </cpu-usage-processes>
+    </cpu-utilization>
+  </cpu-usage>
